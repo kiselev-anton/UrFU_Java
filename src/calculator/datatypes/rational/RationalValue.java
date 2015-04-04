@@ -59,14 +59,15 @@ public class RationalValue extends AbstractValue {
     }
 
     @Override
-    public AbstractValue div(AbstractValue operand) throws DivisionByZeroException, OperationNotSupportedException {
+    public AbstractValue div(AbstractValue operand)
+            throws DivisionByZeroException, OperationNotSupportedException {
         RationalValue that = (RationalValue) operand;
         return this.mul(that.invert());
     }
 
     @Override
     public String toString() {
-        return ("[" + numerator + " / " + denominator + "]");
+        return (numerator + "/" + denominator);
     }
 
     @Override

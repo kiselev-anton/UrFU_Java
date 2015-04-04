@@ -8,9 +8,6 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by kiselev on 25.03.15.
- */
 public class PolynomialValueParser implements AbstractValueParser {
 
     @Override
@@ -22,9 +19,9 @@ public class PolynomialValueParser implements AbstractValueParser {
         Pattern pattern = Pattern.compile("[+-]?[.0-9]+");
         Matcher matcher = pattern.matcher(value);
 
-        int i = 0, degree = 0;
-        double coefficient = 0;
-
+        int i = 0, degree;
+        double coefficient;
+        try {
         while (matcher.find()) {
             if (i == 0) {
                 coefficient = Double.parseDouble(matcher.group(0));
@@ -50,6 +47,8 @@ public class PolynomialValueParser implements AbstractValueParser {
 //                System.out.println("Shit2:" + degree + " " + coefficient);
                 i++;
             }
+        } } catch (NumberFormatException e) {
+            throw new ParseValueException("Cannot parse as Polynomial");
         }
 
         return new PolynomialValue(newValues);
