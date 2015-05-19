@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327cd555-fd98-44d1-872c-e8ed89ecb364" name="Default" comment="shad tasks and some updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shad/ContestResults.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shad/SubstringReverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shad/SubstringReverseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UrFU_Java/calculator/datatypes/polynomial/PolynomialValueParser.class" afterPath="$PROJECT_DIR$/out/production/UrFU_Java/calculator/datatypes/polynomial/PolynomialValueParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UrFU_Java/Vector/SegmentTest.class" afterPath="$PROJECT_DIR$/out/production/UrFU_Java/Vector/SegmentTest.class" />
+    <list default="true" id="327cd555-fd98-44d1-872c-e8ed89ecb364" name="Default" comment="completed all of the tasks">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/calculator/CalculatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UrFU_Java/calculator/Calculator.class" afterPath="$PROJECT_DIR$/out/production/UrFU_Java/calculator/Calculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UrFU_Java/calculator/console/Program.class" afterPath="$PROJECT_DIR$/out/production/UrFU_Java/calculator/console/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/calculator/console/Program.java" afterPath="$PROJECT_DIR$/src/calculator/console/Program.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/kiselev.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/kiselev.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UrFU_Java.iws" />
@@ -32,81 +35,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <file leaf-file-name="FileHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/encoding/FileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17386" max-vertical-offset="22950">
-              <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#60784#0" expanded="false" />
-                <element signature="e#6101#6102#0" expanded="false" />
-                <element signature="e#6171#6172#0" expanded="false" />
-                <element signature="e#7967#7968#0" expanded="false" />
-                <element signature="e#8013#8014#0" expanded="false" />
-                <element signature="e#9482#9483#0" expanded="false" />
-                <element signature="e#9528#9529#0" expanded="false" />
-                <element signature="e#10902#10903#0" expanded="false" />
-                <element signature="e#10948#10949#0" expanded="false" />
-                <element signature="e#15724#15725#0" expanded="false" />
-                <element signature="e#15779#15780#0" expanded="false" />
-                <element signature="e#32532#32533#0" expanded="false" />
-                <element signature="e#32566#32567#0" expanded="false" />
-                <element signature="e#33488#33489#0" expanded="false" />
-                <element signature="e#33522#33523#0" expanded="false" />
-                <element signature="e#33736#33737#0" expanded="false" />
-                <element signature="e#33771#33772#0" expanded="false" />
-                <element signature="e#33891#33892#0" expanded="false" />
-                <element signature="e#33919#33920#0" expanded="false" />
-                <element signature="e#34168#34169#0" expanded="false" />
-                <element signature="e#34202#34203#0" expanded="false" />
-                <element signature="e#34414#34415#0" expanded="false" />
-                <element signature="e#34449#34450#0" expanded="false" />
-                <element signature="e#34664#34665#0" expanded="false" />
-                <element signature="e#34700#34701#0" expanded="false" />
-                <element signature="e#35161#35162#0" expanded="false" />
-                <element signature="e#35199#35200#0" expanded="false" />
-                <element signature="e#35486#35487#0" expanded="false" />
-                <element signature="e#35532#35533#0" expanded="false" />
-                <element signature="e#35824#35825#0" expanded="false" />
-                <element signature="e#35852#35853#0" expanded="false" />
-                <element signature="e#37816#37817#0" expanded="false" />
-                <element signature="e#37859#37860#0" expanded="false" />
-                <element signature="e#46394#46395#0" expanded="false" />
-                <element signature="e#46458#46459#0" expanded="false" />
-                <element signature="e#47615#47616#0" expanded="false" />
-                <element signature="e#47675#47676#0" expanded="false" />
-                <element signature="e#48444#48445#0" expanded="false" />
-                <element signature="e#48491#48492#0" expanded="false" />
-                <element signature="e#56465#56466#0" expanded="false" />
-                <element signature="e#56523#56524#0" expanded="false" />
-                <element signature="e#57650#57651#0" expanded="false" />
-                <element signature="e#57708#57709#0" expanded="false" />
-                <element signature="e#59796#59797#0" expanded="false" />
-                <element signature="e#59824#59825#0" expanded="false" />
-                <element signature="e#60191#60192#0" expanded="false" />
-                <element signature="e#60228#60229#0" expanded="false" />
-                <element signature="e#60595#60596#0" expanded="false" />
-                <element signature="e#60632#60633#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubstringReverse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shad/SubstringReverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.50209206" vertical-offset="0" max-vertical-offset="705">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubstringReverseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shad/SubstringReverseTest.java">
+      <file leaf-file-name="PriorityQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44025156" vertical-offset="0" max-vertical-offset="477">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1035">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="2100">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/calculator/console/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="711" max-vertical-offset="2235">
+              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -123,11 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/1/Message.java" />
-        <option value="$PROJECT_DIR$/src/1/CharCounter.java" />
-        <option value="$PROJECT_DIR$/src/CharCounter.java" />
-        <option value="$PROJECT_DIR$/src/HelloNotWorld.java" />
-        <option value="$PROJECT_DIR$/src/MessageTest.java" />
         <option value="$PROJECT_DIR$/src/Message.java" />
         <option value="$PROJECT_DIR$/src/NewVector.java" />
         <option value="$PROJECT_DIR$/src/VectorTest.java" />
@@ -141,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/Vector3D.java" />
         <option value="$PROJECT_DIR$/src/calculator/DivisionByZeroException.java" />
         <option value="$PROJECT_DIR$/src/calculator/OperationNotSupportedException.java" />
-        <option value="$PROJECT_DIR$/src/calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/src/calculator/ParseValueException.java" />
         <option value="$PROJECT_DIR$/src/calculator/AbstractValue.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/integer/IntegerValueParser.java" />
@@ -160,18 +121,26 @@
         <option value="$PROJECT_DIR$/src/calculator/datatypes/vector/VectorValueTest.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/integer/IntegerValue.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/real/RealValue.java" />
-        <option value="$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValue.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueTest.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueParserTest.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/vector/VectorValue.java" />
         <option value="$PROJECT_DIR$/src/calculator/console/ProgramTest.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/rational/RationalValue.java" />
-        <option value="$PROJECT_DIR$/src/calculator/console/Program.java" />
         <option value="$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueParser.java" />
         <option value="$PROJECT_DIR$/src/Vector/SegmentTest.java" />
         <option value="$PROJECT_DIR$/src/shad/SubstringReverse.java" />
         <option value="$PROJECT_DIR$/src/shad/ContestResults.java" />
         <option value="$PROJECT_DIR$/src/shad/SubstringReverseTest.java" />
+        <option value="$PROJECT_DIR$/src/calculator/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValue.java" />
+        <option value="$PROJECT_DIR$/src/encoding/FIleHandler.java" />
+        <option value="$PROJECT_DIR$/src/encoding/EncodingChanger.java" />
+        <option value="$PROJECT_DIR$/src/encoding/FileHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/encoding/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/calculator/console/Program.java" />
+        <option value="$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueueTest.java" />
       </list>
     </option>
   </component>
@@ -236,6 +205,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shad" />
+              <option name="myItemId" value="encoding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,14 +271,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calculator" />
+              <option name="myItemId" value="PriorityQueue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,14 +308,14 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="encoding" />
+      <recent name="dataStructures.PriorityQueue" />
+      <recent name="calculator" />
       <recent name="shad" />
       <recent name="calculator.console" />
-      <recent name="calculator.datatypes.polynomial" />
-      <recent name="calculator.datatypes.vector" />
-      <recent name="calculator.datatypes.complex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run ContestResults">
+  <component name="RunManager" selected="Application.Run FileHandler">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -573,6 +542,23 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Run FileHandler" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="encoding.FileHandler" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="test.utf8.txt UTF-8 emojiFail.txt Cp1251" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/encodingFilesTest/" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UrFU_Java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="Run ContestResults" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="shad.ContestResults" />
@@ -654,6 +640,52 @@
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="shad" />
       <option name="MAIN_CLASS_NAME" value="shad.SubstringReverseTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run PriorityQueueTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="UrFU_Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="dataStructures.PriorityQueue" />
+      <option name="MAIN_CLASS_NAME" value="dataStructures.PriorityQueue.PriorityQueueTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run CalculatorTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="UrFU_Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -958,24 +990,27 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="17">
-      <item index="0" class="java.lang.String" itemvalue="Application.Run ContestResults" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Run CalculatorConsole" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Run Message" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Run Vector" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Run SubstringReverseTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.Run VectorValueParserTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.Run VectorValueTest" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.Run PolynomialValueParserTest" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.Run ProgramTest" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.Run ComplexValueTest" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.Run ComplexValueParserTest" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.Run RationalValueParserTest" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.Run RationalValueTest" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.Run MessageTest" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.Run Vector3DTest" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.Run CustomVectorTest" />
-      <item index="16" class="java.lang.String" itemvalue="JUnit.Run SegmentTest" />
+    <list size="20">
+      <item index="0" class="java.lang.String" itemvalue="Application.Run FileHandler" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Run ContestResults" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Run CalculatorConsole" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Run Message" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Run Vector" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Run SubstringReverseTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.Run PriorityQueueTest" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.Run CalculatorTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.Run VectorValueParserTest" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.Run VectorValueTest" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.Run PolynomialValueParserTest" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.Run ProgramTest" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.Run ComplexValueTest" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.Run ComplexValueParserTest" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.Run RationalValueParserTest" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.Run RationalValueTest" />
+      <item index="16" class="java.lang.String" itemvalue="JUnit.Run MessageTest" />
+      <item index="17" class="java.lang.String" itemvalue="JUnit.Run Vector3DTest" />
+      <item index="18" class="java.lang.String" itemvalue="JUnit.Run CustomVectorTest" />
+      <item index="19" class="java.lang.String" itemvalue="JUnit.Run SegmentTest" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -995,7 +1030,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428135474115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shad tasks and some updates">
+      <created>1429157540312</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1429157540312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1019,12 +1060,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32802126" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36918992" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1033,18 +1075,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="24" y="30" width="309" height="753" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.240625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="24" y="30" width="309" height="753" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36653388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3187251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1074,6 +1115,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -1086,16 +1130,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="some fixes and new tests" />
     <MESSAGE value="shad tasks and some updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="shad tasks and some updates" />
+    <MESSAGE value="completed all of the tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed all of the tasks" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="45" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1104,167 +1153,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/calculator/OperationNotSupportedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/ParseValueException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Message/CharCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57931036" vertical-offset="0" max-vertical-offset="725">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Message/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4413793" vertical-offset="115" max-vertical-offset="1230">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/AbstractValueParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08275862" vertical-offset="0" max-vertical-offset="725">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="48375">
-          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/real/RealValueParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5033557" vertical-offset="0" max-vertical-offset="447">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5586207" vertical-offset="0" max-vertical-offset="725">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6689038" vertical-offset="6316" max-vertical-offset="10020">
-          <caret line="466" column="12" selection-start-line="466" selection-start-column="12" selection-end-line="466" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1711" max-vertical-offset="8055">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/integer/IntegerValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="765">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/real/RealValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="660">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93736017" vertical-offset="4021" max-vertical-offset="5910">
-          <caret line="319" column="12" selection-start-line="319" selection-start-column="12" selection-end-line="319" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/AbstractValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40268457" vertical-offset="0" max-vertical-offset="447">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5864" max-vertical-offset="8685">
-          <caret line="443" column="12" selection-start-line="443" selection-start-column="12" selection-end-line="443" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="11251" max-vertical-offset="16395">
-          <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vector/Vector3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9395974" vertical-offset="873" max-vertical-offset="1860">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6375839" vertical-offset="75" max-vertical-offset="600">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/integer/IntegerValueParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482" vertical-offset="0" max-vertical-offset="725">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vector/CustomVectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08275862" vertical-offset="0" max-vertical-offset="765">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vector/AbstractVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12413793" vertical-offset="0" max-vertical-offset="725">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vector/Segment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="952">
@@ -1328,13 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/ValueParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="510">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/vector/VectorValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1305">
@@ -1377,13 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1005">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vector/SegmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="495">
@@ -1391,18 +1265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/console/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="1005">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="27494" max-vertical-offset="45810">
           <caret line="1911" column="18" selection-start-line="1911" selection-start-column="18" selection-end-line="1911" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,13 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36413792" vertical-offset="261" max-vertical-offset="2520">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shad/ContestResults.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.46993318" vertical-offset="241" max-vertical-offset="690">
@@ -1434,86 +1293,234 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/UrFU_Java/shad/SubstringReverseTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17386" max-vertical-offset="22950">
+        <state vertical-scroll-proportion="0.5010482" vertical-offset="17386" max-vertical-offset="22950">
           <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#60784#0" expanded="false" />
-            <element signature="e#6101#6102#0" expanded="false" />
-            <element signature="e#6171#6172#0" expanded="false" />
-            <element signature="e#7967#7968#0" expanded="false" />
-            <element signature="e#8013#8014#0" expanded="false" />
-            <element signature="e#9482#9483#0" expanded="false" />
-            <element signature="e#9528#9529#0" expanded="false" />
-            <element signature="e#10902#10903#0" expanded="false" />
-            <element signature="e#10948#10949#0" expanded="false" />
-            <element signature="e#15724#15725#0" expanded="false" />
-            <element signature="e#15779#15780#0" expanded="false" />
-            <element signature="e#32532#32533#0" expanded="false" />
-            <element signature="e#32566#32567#0" expanded="false" />
-            <element signature="e#33488#33489#0" expanded="false" />
-            <element signature="e#33522#33523#0" expanded="false" />
-            <element signature="e#33736#33737#0" expanded="false" />
-            <element signature="e#33771#33772#0" expanded="false" />
-            <element signature="e#33891#33892#0" expanded="false" />
-            <element signature="e#33919#33920#0" expanded="false" />
-            <element signature="e#34168#34169#0" expanded="false" />
-            <element signature="e#34202#34203#0" expanded="false" />
-            <element signature="e#34414#34415#0" expanded="false" />
-            <element signature="e#34449#34450#0" expanded="false" />
-            <element signature="e#34664#34665#0" expanded="false" />
-            <element signature="e#34700#34701#0" expanded="false" />
-            <element signature="e#35161#35162#0" expanded="false" />
-            <element signature="e#35199#35200#0" expanded="false" />
-            <element signature="e#35486#35487#0" expanded="false" />
-            <element signature="e#35532#35533#0" expanded="false" />
-            <element signature="e#35824#35825#0" expanded="false" />
-            <element signature="e#35852#35853#0" expanded="false" />
-            <element signature="e#37816#37817#0" expanded="false" />
-            <element signature="e#37859#37860#0" expanded="false" />
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-            <element signature="e#47615#47616#0" expanded="false" />
-            <element signature="e#47675#47676#0" expanded="false" />
-            <element signature="e#48444#48445#0" expanded="false" />
-            <element signature="e#48491#48492#0" expanded="false" />
-            <element signature="e#56465#56466#0" expanded="false" />
-            <element signature="e#56523#56524#0" expanded="false" />
-            <element signature="e#57650#57651#0" expanded="false" />
-            <element signature="e#57708#57709#0" expanded="false" />
-            <element signature="e#59796#59797#0" expanded="false" />
-            <element signature="e#59824#59825#0" expanded="false" />
-            <element signature="e#60191#60192#0" expanded="false" />
-            <element signature="e#60228#60229#0" expanded="false" />
-            <element signature="e#60595#60596#0" expanded="false" />
-            <element signature="e#60632#60633#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shad/SubstringReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state vertical-scroll-proportion="0.6289308" vertical-offset="0" max-vertical-offset="495">
           <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/UrFU_Java/shad/SubstringReverseTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#625#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shad/SubstringReverseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44025156" vertical-offset="0" max-vertical-offset="477">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4716981" vertical-offset="0" max-vertical-offset="477">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33184856" vertical-offset="13846" max-vertical-offset="20325">
+          <caret line="998" column="31" selection-start-line="998" selection-start-column="31" selection-end-line="998" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33260393" vertical-offset="958" max-vertical-offset="1830">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.062068965" vertical-offset="0" max-vertical-offset="725">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91034484" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/EmptyStackException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41379312" vertical-offset="0" max-vertical-offset="725">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.37931034" vertical-offset="1278" max-vertical-offset="1800">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6360153" vertical-offset="46228" max-vertical-offset="75015">
+          <caret line="3173" column="26" selection-start-line="3173" selection-start-column="26" selection-end-line="3173" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2196" max-vertical-offset="7050">
+          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="3615">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Readable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="540">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2415">
+          <caret line="153" column="20" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/polynomial/PolynomialValueParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74482757" vertical-offset="15" max-vertical-offset="915">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/datatypes/ValueParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5586207" vertical-offset="0" max-vertical-offset="725">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324138" vertical-offset="659" max-vertical-offset="2475">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93449783" vertical-offset="7" max-vertical-offset="555">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3799126" vertical-offset="43" max-vertical-offset="2700">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33187774" vertical-offset="1138" max-vertical-offset="8535">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#3011#3012#0" expanded="false" />
+            <element signature="e#3058#3059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.825328" vertical-offset="4957" max-vertical-offset="5415">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53828305" vertical-offset="8318" max-vertical-offset="12930">
+          <caret line="611" column="22" selection-start-line="611" selection-start-column="14" selection-end-line="611" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/AbstractValueParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09825327" vertical-offset="0" max-vertical-offset="458">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="224.44444" vertical-offset="6270" max-vertical-offset="8685">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="77670">
+          <caret line="727" column="41" selection-start-line="727" selection-start-column="41" selection-end-line="727" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8689655" vertical-offset="180" max-vertical-offset="915">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="2100">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/console/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="711" max-vertical-offset="2235">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructures/PriorityQueue/PriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1035">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encoding/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50209206" vertical-offset="0" max-vertical-offset="705">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding />
         </state>
       </provider>

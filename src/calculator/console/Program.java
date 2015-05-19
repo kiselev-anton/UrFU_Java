@@ -2,6 +2,7 @@ package calculator.console;
 
 import calculator.AbstractValueParser;
 import calculator.Calculator;
+import calculator.ParseValueException;
 import calculator.datatypes.complex.ComplexValue;
 import calculator.datatypes.complex.ComplexValueParser;
 import calculator.datatypes.integer.IntegerValue;
@@ -13,7 +14,10 @@ import calculator.datatypes.real.RealValue;
 import calculator.datatypes.real.RealValueParser;
 import calculator.datatypes.vector.VectorValueParser;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Program {
 
@@ -41,6 +45,16 @@ public class Program {
         calc = new Calculator(parser);
     }
 
+    public static void main(String args[]) {
+        try {
+            Program instance = new Program();
+//            instance.run(args);
+            instance.runReversePolish(args);
+        } catch (Exception e) {
+            e.printStackTrace(System.out);
+        }
+    }
+
     private AbstractValueParser inputValueParser() {
         showChoices();
         int choice = scanner.nextInt();
@@ -58,100 +72,97 @@ public class Program {
             System.out.println("  " + (i + 1) + ". "
                     + valueParsers[i].getDatatypeName());
     }
-
-    public static void main(String args[]) {
-        try {
-            Program instance = new Program();
-            instance.run(args);
-        } catch (Exception e) {
-            e.printStackTrace(System.out);
-        }
-    }
-
-    private void run(String[] args) {
-        while (true) {
-            String arg1 = scanner.next();
-            if (arg1.equals("exit"))
-                break;
-            String op = scanner.next();
-            String arg2 = scanner.next();
-            try {
-                System.out.println(" = " + calc.calculate(arg1, op, arg2));
-            } catch (Exception exception) {
-                System.out.println(exception.getLocalizedMessage());
-            }
-        }
-    }
-
-//    private void runReversePolish(String[] args) {
+//
+//    private void run(String[] args) {
 //        while (true) {
-//            Stack<String> stack = new Stack<>();
-//            String[] symbols = scanner.nextLine().split(" ");
-//            if (symbols[0].equals("exit"))
+//            String arg1 = scanner.next();
+//            if (arg1.equals("exit"))
 //                break;
-//
-//            for (String symbol: symbols) {
-//                if (isNumber(symbol)) {
-//                    stack.push(symbol);
-//                }
-//            }
-//
+//            String op = scanner.next();
+//            String arg2 = scanner.next();
 //            try {
-////                System.out.println(" = " + calc.calculate(arg1, op, arg2));
+//                System.out.println(" = " + calc.calculate(arg1, op, arg2));
 //            } catch (Exception exception) {
 //                System.out.println(exception.getLocalizedMessage());
 //            }
 //        }
 //    }
-//
-//    private boolean isNumber(String s) {
-//        return !isOp(s) && !isCloseParetheses(s) && !isOpenParentheses(s);
-//    }
-//
-//    private boolean isOp(String s) {
-//        return s.equals("*") || s.equals("+") || s.equals("/") || s.equals("-");
-//    }
-//
-//    private boolean isOpenParentheses(String s) {
-//        return s.equals("(");
-//    }
-//
-//    private boolean isCloseParetheses(String s) {
-//        return s.equals(")");
-//    }
-//
-//    public String toReversePolish(String s) throws ParseValueException {
-//        String result = "";
-//        Stack<String> stack = new Stack<>();
-//        String[] symbols = s.split(" ");
-//        if (symbols[0].equals("exit"))
-//            return "exit";
-//
-//        for (String symbol: symbols) {
-//            if (isNumber(symbol)) {
-//                result += symbol;
-//            }
-//            if (isOp(symbol) || isOpenParentheses(symbol)) {
-//                stack.push(symbol);
-//            }
-//            if (isCloseParetheses(symbol)) {
-//                if (stack.isEmpty())
-//                    throw new ParseValueException("Cannot parse: brackets are not correct");
-//                while (!isOpenParentheses(stack.peek())) {
-//                    result += (stack.pop() + " ");
-//                }
-//                stack.pop(); // removing open bracket without pushing it to result
-//            }
-//        }
-//
-//        while (!stack.isEmpty()) {
-//            String element = stack.pop();
-//            if (!isOp(element))
-//                throw new ParseValueException("Cannot parse: brackets are not correct");
-//            result += (element + " ");
-//        }
-//
-//        return result;
-//    }
+
+    private void runReversePolish(String[] args) {
+        while (true) {
+            String expression = scanner.nextLine();
+            try {
+                if (expression.equals("exit"))
+                    break;
+                if (expression.equals(""))
+                    continue;
+                System.out.println(" = " + calc.calculateReversePolish(toReversePolish(expression)));
+            } catch (Exception e) {
+                System.out.println(e.getLocalizedMessage());
+            }
+        }
+    }
+
+    private boolean isNumber(String s) {
+        return !isOp(s) && !isCloseParenthesis(s) && !isOpenParenthesis(s);
+    }
+
+    private boolean isOp(String s) {
+        return priority(s) != -1;
+    }
+
+    private boolean isOpenParenthesis(String s) {
+        return s.equals("(");
+    }
+
+    private boolean isCloseParenthesis(String s) {
+        return s.equals(")");
+    }
+
+    public List<String> toReversePolish(String s) throws ParseValueException {
+        List<String> reversePolishExpression = new ArrayList<>();
+        Stack<String> stack = new Stack<>();
+        String[] symbols = s.split(" ");
+        for (String symbol : symbols) {
+            if (isNumber(symbol)) {
+                reversePolishExpression.add(symbol);
+            }
+            if (isOpenParenthesis(symbol)) {
+                stack.push(symbol);
+            }
+            if (isCloseParenthesis(symbol)) {
+                if (stack.isEmpty())
+                    throw new ParseValueException("Cannot parse: brackets are not correct");
+                while (!isOpenParenthesis(stack.peek())) {
+                    reversePolishExpression.add(stack.pop());
+                }
+                stack.pop(); // removing open bracket without pushing it to reversePolishExpression
+                if (!stack.empty() && isOp(stack.peek()))
+                    reversePolishExpression.add(stack.pop());
+            }
+            if (isOp(symbol)) {
+                while (!stack.empty() && priority(symbol) <= priority(stack.peek())) {
+                    reversePolishExpression.add(stack.pop());
+                }
+                stack.push(symbol);
+            }
+        }
+        while (!stack.empty()) {
+            String symbol = stack.pop();
+            if (!(isOp(symbol)))
+                throw new ParseValueException("Cannot parse: brackets are not correct");
+            else reversePolishExpression.add(symbol);
+        }
+        System.out.println(reversePolishExpression); // debug
+        return reversePolishExpression;
+    }
+
+    private int priority(String op) {
+        if (op.equals("*") || op.equals("/"))
+            return 2;
+        if (op.equals("-") || op.equals("+"))
+            return 1;
+        else return -1;
+    }
 
 }
